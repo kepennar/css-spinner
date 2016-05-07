@@ -1,0 +1,29 @@
+{
+  "name": "css-spinner",
+  "version": "0.0.1",
+  "description": "A pure CSS spinner",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kepennar/css-spinner.git"
+  },
+  "scripts": {
+    "build": "node tools/render-sass.js"
+  },
+  "keywords": [
+    "css",
+    "spinner"
+  ],
+  "author": "Kevin Pennarun <kevin.pennarun@gmail.com> (http://kevin-pennarun.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kepennar/css-spinner/issues"
+  },
+  "homepage": "https://github.com/kepennar/css-spinner#readme",
+  "dependencies": {
+    "node-sass": "^3.7.0"
+  },
+  "devDependencies": {
+    "mathsass": "^0.9.5",
+    "mkdirp": "^0.5.1"
+  }
+}
