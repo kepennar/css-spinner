@@ -1,6 +1,6 @@
 {
   "name": "scss-spinner",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A pure CSS spinner",
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
   "devDependencies": {
     "mathsass": "^0.9.5",
     "mkdirp": "^0.5.1"
+  },
+  "peerDependencies" : {
+    "mathsass": "^0.9.5"
   }
 }
