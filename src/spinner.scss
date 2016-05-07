@@ -1,9 +1,9 @@
 @import 'math';
 
-$animation-duration: 1s;
-$nb-point: 20;
-$point-color: red !default;
-$alternative-color: blue !default;
+$spinner-animation-duration: 1s;
+$spinner-nb-point: 20;
+$spinner-point-color: red !default;
+$spinner-alternative-color: blue !default;
 
 .spin-rotate,
 .spin-rotate>div {
@@ -31,15 +31,15 @@ $alternative-color: blue !default;
     margin-top:-4px;
     margin-left:-4px;
     border-radius:100%;
-    animation:spin-fade $animation-duration infinite linear, color-pulse $animation-duration infinite linear;
+    animation:spin-fade $spinner-animation-duration infinite linear, color-pulse $spinner-animation-duration infinite linear;
 
 
-    $angle: 360deg / $nb-point;
-    @for $i from 1 through $nb-point {
+    $angle: 360deg / $spinner-nb-point;
+    @for $i from 1 through $spinner-nb-point {
       &:nth-child(#{$i}) {
         top: sin($i*$angle) * 100% +50%;
         left: cos($i*$angle) * 100% +50%;
-        animation-delay:-$animation-duration / $nb-point * $i;
+        animation-delay:-$spinner-animation-duration / $spinner-nb-point * $i;
       }
     }
   }
@@ -52,7 +52,7 @@ $alternative-color: blue !default;
   50%{opacity: .25; transform: scale(0.5);}
 }
 @keyframes color-pulse {
-0%   {background: $point-color; box-shadow: lighten($point-color, 20%) 1px 1px 2px;}
-50%  {background: $alternative-color;}
-100% {background: $point-color;}
+0%   {background: $spinner-point-color; box-shadow: lighten($spinner-point-color, 20%) 1px 1px 2px;}
+50%  {background: $spinner-alternative-color;}
+100% {background: $spinner-point-color;}
 }

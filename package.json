@@ -1,6 +1,6 @@
 {
-  "name": "css-spinner",
-  "version": "0.0.1",
+  "name": "scss-spinner",
+  "version": "0.0.2",
   "description": "A pure CSS spinner",
   "repository": {
     "type": "git",
