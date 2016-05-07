@@ -1,4 +1,4 @@
-# A simple SCS spinner
+# A simple SCSS spinner
 [Example] (https://htmlpreview.github.io/?https://github.com/kepennar/css-spinner/blob/master/example/index.html)
 
 
@@ -6,8 +6,10 @@
 
 Add mathsass peer dependency in your project
 
-```
+Add scss-spinner as a devDependency
+```sh
 $ npm i -D mathsass
+$ npm i -D scss-spinner
 ```
 
 Add **Mathsass** and **Scss-spinner** in your **Node-sass** `includePaths`
