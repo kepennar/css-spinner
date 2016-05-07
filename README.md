@@ -30,6 +30,7 @@ sass.render({
 
 And finally import **Scss-spinner** in your `.scss` file.
 ```sass
+// You can override this variables. If none, defaults value are used
 $spinner-animation-duration: 'time-for-a-rotation'; // default 1s
 $spinner-nb-point: 'number-of-spinner-points'; // default 20
 $spinner-point-color: 'main-color'; // default red
