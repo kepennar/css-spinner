@@ -1,4 +1,7 @@
 # A simple SCSS spinner
+
+[![NPM](https://nodei.co/npm/scss-spinner.png)](https://nodei.co/npm/scss-spinner/)
+
 [Example] (https://htmlpreview.github.io/?https://github.com/kepennar/css-spinner/blob/master/example/index.html)
 
 
