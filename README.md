@@ -4,9 +4,7 @@
 
 ## Usage
 
-Add mathsass peer dependency in your project
-
-Add scss-spinner as a devDependency
+Add **Mathsass** and **Scss-spinner**as `devDependencies`
 ```sh
 $ npm i -D mathsass
 $ npm i -D scss-spinner
